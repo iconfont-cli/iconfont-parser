@@ -13,6 +13,7 @@ export interface XmlData {
         $: {
           d: string;
           fill?: string;
+          'fill-opacity'?: number;
         };
       }>;
     }>;
